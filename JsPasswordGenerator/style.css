@@ -32,13 +32,23 @@ h2{
     top: 30%;
     margin-top: -100px; /* half of you height */
     margin-left: -200px; /* half of you width */
+    margin-bottom: 2rem;
 }
 .pass-result{
     padding: 1.7rem;
+    overflow: auto;
+    max-width: 340px;
+    overflow-wrap: anywhere;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .result{
     width: 100%;
+    
     position: relative;
     color: white;
     padding: 1rem 0;
@@ -92,6 +102,7 @@ h2{
 }
 
 footer{
+
     position: fixed;
     left: 0;
     bottom: 0;
